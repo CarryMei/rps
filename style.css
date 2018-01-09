@@ -1,0 +1,36 @@
+body {
+  background-image: url(Art-Background-Image.png);
+}
+
+button {
+  background-color: #e06477;
+  border-style: solid;
+  border-width: 2px;
+  border-color: yellow;
+  width: 170px;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 5px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+button:hover {
+  background-color: #fcffb7;
+  border-color: black;
+}
+
+.score{
+  display: inline-block;
+}
+p {
+  border-width: 2px;
+  border-color: yellow;
+  height: 27px;
+  width: 170px;
+  background-color: #7af499;
+  border-style: solid;
+  position: relative;
+  top: 40px;
+  margin-left: 30px;
+  text-align: center;
+}
